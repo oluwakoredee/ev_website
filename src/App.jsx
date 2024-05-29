@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { useEffect, useState } from "react"
 import Background from "./Components/Background/Background";
 import Navbar from "./Components/Navbar/Navbar";
@@ -14,13 +15,13 @@ const App = () => {
   const [heroCount, setHeroCount] = useState(0);
   const [playStatus, setPlayStatus] = useState(false);
 
-  useEffect(()=>{
-    setInterval(() => {
-      setHeroCount((count)=>{
-        return count===2?0:count+1
-      })
-    },3000);
-  })
+  // useEffect(()=>{
+  //   setInterval(() => {
+  //     setHeroCount((count)=>{
+  //       return count===2?0:count+1
+  //     })
+  //   },3000);
+  // })
 
   return (
     <div>

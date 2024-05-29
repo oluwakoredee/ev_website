@@ -15,7 +15,7 @@ const Background = ({playStatus, heroCount}) => {
         )
     }
     else if (heroCount===0) {
-        return <img src={image1} className='background fade-in'  alt='' />
+        return <img src={image1} className=' background fade-in'  alt='' />
     }
     else if (heroCount===1) {
         return <img src={image2} className='background fade-in'  alt='' />
@@ -24,6 +24,5 @@ const Background = ({playStatus, heroCount}) => {
         return <img src={image3} className='background fade-in'  alt='' />
     }
 }
-
 
 export default Background
